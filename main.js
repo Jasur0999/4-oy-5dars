@@ -238,4 +238,20 @@
 
 //  16- task  ///////////////////////////////
 
+// function factorial(N) {
+//     if (N < 0) return 1;
+//     let result = 1;
+//     for (let i = 1; i <= N; i++) {
+//       result *= i;
+//     }
+//     return result;
+//   }
+// factorial(result);
+
 //  19- task  ///////////////////////////////
+
+// function invertTime(H, M, S) {
+//     return H * 3600 + M * 60 + S;
+//   }
+  
+//   console.log(invertTime(0, 6, 40)); 
