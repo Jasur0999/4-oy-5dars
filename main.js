@@ -102,6 +102,24 @@
 // }
 // sortABC(3, 65, 98);
 
+
+//  10- task  //////////////////////////////////
+
+// function isPowerN(K, N) {
+//     if (K <= 0) {
+//       return false;
+//     }
+    
+//     let result = K;
+//     while (result % N === 0) {
+//       result /= N;
+//     }
+    
+//     return result === 1;
+//   }
+//   isPowerN(16);
+
+
 //  11- task ///////////////////////////////
 
 
