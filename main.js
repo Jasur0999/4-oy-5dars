@@ -32,6 +32,19 @@
 
 //  4- task ///////////////////////////////
 
+// function numberOfRoots(A, B, C) {
+//     const D = B * B - 4 * A * C;
+//     if (D > 0) {
+//       return 2;
+//     } else if (D === 0) {
+//       return 1;
+//     } else {
+//       return 0;
+//     }
+//   }
+  
+//   console.log(numberOfRoots(1, -6, 9));
+
 //  5- task ///////////////////////////////
 
 // function areaCrcle(R, P){
