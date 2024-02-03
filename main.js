@@ -168,3 +168,74 @@
 // }
 
 // isPrime(12000);
+
+
+//  12- task  ///////////////////////////////
+
+// function isPrime(num) {
+//     if (num <= 1) return false;
+//     if (num === 2) return true;
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//       if (num % i === 0) return false;
+//     }
+//     return true;
+//   }
+  
+//   function numberOfPrime(N) {
+//     let count = 0;
+//     for (let i = 2; i <= N; i++) {
+//       if (isPrime(i)) {
+//         count++;
+//       }
+//     }
+//     return count;
+//   }
+  
+//   console.log(numberOfPrime(10));
+
+
+//  13- task  ///////////////////////////////
+
+// function digitNth1(num){
+//     return num.toString().length;
+//   }
+  
+//   function digitNth(K, N) {
+//     if (digitNth1(K) < N) {
+//       return -1;
+//     }
+//     let numStr = K.toString();
+//     let digit = parseInt(numStr[numStr.length - N]);
+//     return digit;
+//   }
+  
+//   console.log(digitNth(105782, 5)); 
+//   console.log(digitNth(1057, 5));
+
+//  14- task  ///////////////////////////////
+
+
+//  15- task  ///////////////////////////////
+
+// function pNumber(number) {
+//     let inverse = 0;
+//     while (number > 0) {
+//       inverse = (inverse * 10) + (number % 10);
+//       number = Math.floor(number / 10);
+//     }
+//     return inverse;
+//   }
+  
+//   function isPalindrom(N) {
+//     if (N === pNumber(N)) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+  
+//   console.log(isPalindrom(1678761));
+
+//  16- task  ///////////////////////////////
+
+//  19- task  ///////////////////////////////
